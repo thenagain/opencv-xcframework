@@ -9,6 +9,9 @@ let sha256 = "44582a5486454e05d349d295cee520608ee9efe603b3305741fdf86e5c8754ad"
 
 let package = Package(
     name: "opencv2",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         .library(
             name: "opencv2",
